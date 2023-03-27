@@ -10,7 +10,7 @@ body{
     
 background: -webkit-linear-gradient(90deg, rgb(127, 132, 137), rgb(169, 196, 222));
 background: linear-gradient(90deg, rgb(127, 132, 137), rgb(169, 196, 222));
-background-image: url(bureau-scene-espace-blanc.jpg);
+background-image: url(file:///home/bruno/Downloads/bureau-scene-espace-blanc.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: bottom right;
