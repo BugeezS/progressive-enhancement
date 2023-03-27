@@ -35,3 +35,45 @@ a:hover{
 a:visited{
     color: red;
 }
+.good{
+    text-transform: capitalize;
+    color: green;;
+}
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+/*Mettre en alternance la couleur grise dans le tableau */
+tr:nth-child(odd){
+    background-color: slategray;
+}
+li:first-child{
+    background-image: url(file:///home/bruno/Pictures/bien.png);
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+li:nth-child(2){
+    background-image: url(file:///home/bruno/Pictures/mal.png);
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+li:nth-child(3){
+    background-image: url(file:///home/bruno/Pictures/chat.png);
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+p:first-child{
+    font-weight: bold;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#test{
+    display: flex;
+    justify-content:safe center ;
+}
