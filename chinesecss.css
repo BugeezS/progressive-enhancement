@@ -1,0 +1,37 @@
+p{
+    font-family: serif;
+    word-spacing: 5px;
+    font-size:medium;
+    color: darkslategrey;
+}
+body{
+    width: 90%;
+    margin: auto;
+    
+background: -webkit-linear-gradient(90deg, rgb(127, 132, 137), rgb(169, 196, 222));
+background: linear-gradient(90deg, rgb(127, 132, 137), rgb(169, 196, 222));
+background-image: url(bureau-scene-espace-blanc.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom right;
+    
+}
+blockquote{
+max-width: 50%;
+margin: auto;
+font-size: 160%;
+background-color: lightgray;
+border-left: 3px firebrick solid;
+padding-left: 30px;
+padding-top: 80px;
+padding-bottom: 80px;
+font-style: italic;
+    
+
+}
+a:hover{
+    color:aqua;
+}
+a:visited{
+    color: red;
+}
