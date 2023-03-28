@@ -69,11 +69,15 @@ p:first-child{
     font-weight: bold;
 }
 #container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+display: inline-flex;
+flex-wrap: wrap;
+vertical-align: top;
 }
-#test{
-    display: flex;
-    justify-content:safe center ;
+div>p{
+    flex: 1;
+    text-align: center;
+
+}
+div>img{
+    flex: 1;
 }
