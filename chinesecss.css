@@ -1,0 +1,83 @@
+p{
+    font-family: serif;
+    word-spacing: 5px;
+    font-size:medium;
+    color: darkslategrey;
+}
+body{
+    width: 90%;
+    margin: auto;
+    
+background: -webkit-linear-gradient(90deg, rgb(127, 132, 137), rgb(169, 196, 222));
+background: linear-gradient(90deg, rgb(127, 132, 137), rgb(169, 196, 222));
+background-image: url(file:///home/bruno/Downloads/bureau-scene-espace-blanc.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom right;
+    
+}
+blockquote{
+max-width: 50%;
+margin: auto;
+font-size: 160%;
+background-color: lightgray;
+border-left: 3px firebrick solid;
+padding-left: 30px;
+padding-top: 80px;
+padding-bottom: 80px;
+font-style: italic;
+    
+
+}
+a:hover{
+    color:aqua;
+}
+a:visited{
+    color: red;
+}
+.good{
+    text-transform: capitalize;
+    color: green;;
+}
+.bad{
+    text-transform: capitalize;
+    color: red;
+}
+/*Mettre en alternance la couleur grise dans le tableau */
+tr:nth-child(odd){
+    background-color: slategray;
+}
+li:first-child{
+    background-image: url(file:///home/bruno/Pictures/bien.png);
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+li:nth-child(2){
+    background-image: url(file:///home/bruno/Pictures/mal.png);
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+li:nth-child(3){
+    background-image: url(file:///home/bruno/Pictures/chat.png);
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+p:first-child{
+    font-weight: bold;
+}
+#container{
+display: inline-flex;
+flex-wrap: wrap;
+vertical-align: top;
+}
+div>p{
+    flex: 1;
+    text-align: center;
+
+}
+div>img{
+    flex: 1;
+}
